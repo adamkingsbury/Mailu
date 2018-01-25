@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM arm32v6/alpine:edge
 
 RUN echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \
  && apk add --no-cache radicale@testing py-dulwich@testing
