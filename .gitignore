@@ -14,4 +14,4 @@ pip-selfcheck.json
 /.idea
 /.vscode
 .AppleDouble
-/deployment/
+/deployment
