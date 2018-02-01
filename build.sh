@@ -5,3 +5,6 @@ docker build -t adamkingsbury/rpi-mailu-none ./core/none/
 docker build -t adamkingsbury/rpi-mailu-postfix ./core/postfix/
 docker build -t adamkingsbury/rpi-mailu-clamav ./optional/clamav/
 docker build -t adamkingsbury/rpi-mailu-radicale ./optional/radicale/
+docker build -t adamkingsbury/rpi-mailu-rspamd ./services/rspamd/
+docker build -t adamkingsbury/rpi-mailu-fetchmail ./services/fetchmail/
+docker build -t adamkingsbury/rpi-mailu-roundcube ./webmails/roundcube/

@@ -13,3 +13,5 @@ pip-selfcheck.json
 /docker-compose.yml
 /.idea
 /.vscode
+.AppleDouble
+/deployment/
