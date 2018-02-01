@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM arm32v6/python:alpine3.7
 
 RUN apk add --no-cache fetchmail ca-certificates
 
